@@ -1,0 +1,65 @@
+.o {
+    color: orange
+}
+
+nav {
+    margin-bottom: 200px;
+}
+
+#banner {
+    background-image: url("assets/sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: orange 5px solid;
+    color: #000;
+}
+
+#main-banner {
+    align-items: center;
+    display: flex;
+}
+
+.sticker-image {
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 20%;
+    width: 20%;
+    text-align: center;
+}
+
+#product-btn {
+    background-color: #fff;
+    color: #000;
+    border: orange 2px solid;
+}
+
+#slogan {
+    text-align: center;
+}
+
+#home-card {
+    width: 30%;
+    color: #fff;
+}
+
+footer {
+    border-top: orange 2px solid;
+}
+
+/*      
+    styles for products page
+*/
+
+.product-img {
+    height: 350px;
+}
+
+/*
+    responsive styles
+*/
+
+@media only screen and (max-width: 600px) {
+    #home-card {
+      width: 75%;
+    }
+  }
