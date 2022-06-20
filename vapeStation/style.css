@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nosifer&display=swap');
+
+#showcase {
+    background-color: #000;
+    text-align: center;
+}
+
+.jumbotron{
+    color: rgb(8, 8, 8);
+    box-shadow: 5px 5px 5px#333;
+    background-color: #333;
+}
+
+#phone {
+    background-color: rgb(172, 15, 15);
+    box-shadow: 5px 5px 5px#333;
+    border: .5px rgba(82, 90, 90, 0.133);
+    color: #fff;
+    margin: 5px;
+}
+
+#logo {
+    background-size: cover;
+    border-radius: 8px;
+    height: 35%;
+    width: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#pic {
+    height: 250px;
+}
+
+.card {
+    box-shadow: 5px 5px 5px#333;
+    border: .5px rgba(82, 90, 90, 0.133)
+}
+
+#heading{
+    font-family: nosifer;
+    margin: auto;
+}
+
+#poster {
+    width: 70%;
+    height: 40%;
+}
+
+#center {
+    text-align: center;
+}
